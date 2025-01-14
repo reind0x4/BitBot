@@ -1,0 +1,14 @@
+{
+  "name": "Bitbot",
+  "version": "1.0",
+  "description": "deploy test",
+  "scripts": {
+    "build": "mkdir -p dist && npx cpy-cli . dist && rm -rf dist/.git dist/.gitignore dist/node_modules dist/README.MD"
+  },
+  "dependencies": {
+    "cpy-cli": "^5.0.0"
+  },
+  "devDependencies": {},
+  "author": "reind",
+  "license": "MIT"
+}
